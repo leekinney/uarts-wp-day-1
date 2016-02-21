@@ -1,0 +1,462 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>UArts WordPress Workshop | Day 1</title>
+
+		<meta name="description" content="slides for day one of my University of the Arts WordPress Workshop">
+		<meta name="author" content="LeeAnn Kinney">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/beige.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h1>WordPress Workshop</h1>
+					<h3>Day One</h3>
+					<p>
+						<small>With <a href="http://leeannkinney.com/">LeeAnn Kinney</a> / <a href="mailto:leeann.a.kinney@gmail.com">leeann.a.kinney@gmail.com</a></small>
+					</p>
+				</section>
+
+				<section>
+					<h2>Schedule/Time frame for Day 1</h2>
+					<ul>
+						<li>Introductions</li>
+						<li>Introduction to WordPress</li>
+						<li>Fundamentals</li>
+						<li><b>Break for Lunch</b></li>
+						<li>Customizing</li>
+						<li>Plugins &amp; Widgets</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>About Me</h2>
+					<ul>
+						<li class="fragment">Front-end developer</li>
+						<li class="fragment">Previously UArts continuing ed student</li>
+						<li class="fragment">Co-leader &amp; teacher for <a href='https://www.girldevelopit.com/chapters/philadelphia'>Girl Develop It Philly</a></li>
+						<li class="fragment">Speaker</li>
+						<li class="fragment"><a href='http://elaconf.com/'>Conference</a> &amp; <a href='http://ladyhacks.org/'>Hackathon organizer</a></li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>About You</h2>
+					<ul>
+						<li>Are you a certificate student?</li>
+						<li>What made you want to take this class and what do you hope to get out of it?</li>
+						<li>Do you have any experience or familiarity with WP?</li>
+						<li>What would you describe your coding level? (beginner, intermediate, advanced)</li>
+						<li>Do you have experience with PHP?</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Why WordPress?</h2>
+					<ul>
+						<li class="fragment">WordPress is the <a href="http://w3techs.com/technologies/overview/content_management/all" target="_blank">#1 content management system in the world (60.4% market share)</a>.</li>
+						<li class='fragment'>WordPress is used by <a href="http://w3techs.com/technologies/overview/content_management/all" target="_blank">24%</a> of the sites on the web.</li>
+						<li class='fragment'>WordPress 4.4 has been <a href="http://wordpress.org/download/counter/" target="_blank">downloaded over 32,614,491 times</a></li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Why WordPress?</h2>
+					<ul>
+						<li class="fragment">Free &amp; open source</li>
+						<li class="fragment">Contributers from all around the world</li>
+						<li class="fragment">Easy to find help through forums</li>
+						<li class='fragment'><a href='http://www.meetup.com/Philadelphia-WordPress-Meetup-Group/'>Awesome</a> <a href='https://2015.philly.wordcamp.org/'>community</a></li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Why WordPress?</h2>
+					<ul>
+						<li class="fragment"><span class='blue'>Speed</span>: Get a site up and running very quickly</li>
+						<li class="fragment"><span class='blue'>Simplicity</span>: No coding skills needed</li>
+						<li class="fragment"><span class='blue'>Collaboration</span>: Can have multiple users &amp; roles contributing to a site</li>
+						<li class="fragment"><span class='blue'>Plugins</span>: Plugins can help with anything from forms to SEO (search engine optimization)</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Some examples</h2>
+					<ul>
+						<li class="fragment"><a href="http://www.vogue.in/">Vogue India</a></li>
+						<li class="fragment"><a href='http://www.travelportland.com/'>Travel Portland</a></li>
+						<li class="fragment"><a href="http://snoopdogg.com/">Snoop Dog</a></li>
+						<li class="fragment"><a href='http://techcrunch.com/'>Tech Crunch</a></li>
+						<li class="fragment"><a href='https://wordpress.org/showcase/'>So many more!</a></li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Wordpress.com vs. Wordpress.org</h2>
+					<h3><a href='https://wordpress.com/wp-login.php?redirect_to=https%3A%2F%2Fwordpress.com%2Fstart%3Fref%3Dwplogin'>WordPress.com</a></h3>
+					<ul>
+						<li>Free but you will have to pay for premium features</li>
+						<li>Files are hosted</li>
+						<li>Domain will be websitename.wordpress.com</li>
+						<li>Very limited customization</li>
+						<li>Site will have ads unless you pay to remove</li>
+						<li>No plugins or custom code</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Wordpress.com vs. Wordpress.org</h2>
+					<h3><a href='https://wordpress.org/'>WorPress.org</a></h3>
+					<ul>
+						<li>Free but you will have to pay for your own hosting</li>
+						<li>Domain doesn't have to contain wordpress</li>
+						<li>Unlimited customization</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>How it works</h2>
+					<ul>
+						<li>Content stored in database</li>
+						<li>PHP calls the content</li>
+						<li>HTML gives structure</li>
+						<li>CSS styles the pages</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Installing WordPress</h2>
+					<ul>
+						<li>The easy way: Use a one-click install through your hosting provider</li>
+						<li><a href='http://codex.wordpress.org/Installing_WordPress'>The manual way</a></li>
+						<li><a href='https://bitnami.com/stack/wordpress'>Local Install</a></li>
+					</ul>
+					<small><a href='https://asmallorange.com/'>A hosting provider I like to use $5/month</a></small>
+				</section>
+
+				<section>
+					<h2>Logging in</h2>
+					<ul>
+						<li><span class='blue'>On the web</span>: http://yourdomain.com/wp-admin</li>
+						<li><span class='blue'>Locally</span>: <em>example:</em> http://localhost:8080/wordpress/wp-admin</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Let's install WordPress!</h2>
+				</section>
+
+				<section>
+					<h2>Touring the Dashboard</h2>
+					<ul>
+						<li>Can change what is displayed on admin page</li>
+						<li><span class="blue">General Settings</span></li>
+						<li class="fragment">Site Title</li>
+						<li class="fragment">Tagline</li>
+						<li class="fragment">URL</li>
+						<li class="fragment">Email</li>
+						<li class="fragment">User role</li>
+						<li class="fragment"><a href='https://drive.google.com/file/d/0B0XPG4Oq7OHnQUhDVm54NUpuQ00/view'>WP University Cheat Sheet</a></li>
+				</section>
+
+				<section>
+					<h2>Posts</h2>
+					<ul>
+						<li>All of your blog posts</li>
+						<li>May or may not use this depending on the type of site</li>
+						<li>Quick edits</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Categories vs. Tags</h2>
+					<p><span class='blue'>Categories</span> are higher level items that would be used on a regular basis</p>
+					<p><span class='blue'>Tags</span> more specific</p>
+					<p>One category, multiple tags</p>
+				</section>
+
+				<section>
+					<h2>Category vs. Tag Examples</h2>
+					<ul>
+						<li>Recipes | Apple Pie</li>
+						<li>Cars | El Camino</li>
+						<li>Vacations | Hawaii</li>
+						<li>Shoes | Nike</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Pages</h2>
+					<ul>
+						<li>Pages of the site that don't change often</li>
+						<li>Can appear as top level navigation items</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Media</h2>
+					<p>Stores all of your images, can manage edit and delete here.</p>
+				</section>
+
+				<section>
+					<h2>Writing</h2>
+					<p>Post-related settings</p>
+				</section>
+
+				<section>
+					<h2>Reading</h2>
+					<ul>
+						<li>Set home page</li>
+						<li>Number of posts</li>
+						<li>Search engine indexing</li>
+						<li>RSS settings</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Permalinks</h2>
+					<p>Defines url structure</p>
+				</section>
+
+				<section>
+					<h2>Comments</h2>
+					<ul>
+						<li><span class="blue">Discussion</span> can manage comment settings</li>
+						<li>Can approve, delete, mark as spam</li>
+						<li>Probably want to keep on posts but remove from pages</li>
+						<li>If keeping comments, use a plugin like <a href='https://akismet.com/'>Akismet</a></li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Appearance</h2>
+					<ul>
+						<li>Themes</li>
+						<li>Widgets</li>
+						<li>Menu/navigation</li>
+						<li>Update logo or header</li>
+						<li>Other style updates depending on theme</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Users</h2>
+					<ul>
+						<li>Contributor
+							<ul>
+								<li class="fragment">Can write posts but can't publish</li>
+								<li class="fragment">Will need an admin to approve &amp; post</li>
+							</ul>
+						</li>
+						<li>Author
+							<ul>
+								<li class='fragment'>Can write and publish</li>
+								<li class="fragment">Can only publish own posts</li>
+							</ul>
+						</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Users</h2>
+					<ul>
+						<li>Editor
+							<ul>
+								<li class="fragment">Can write and edit all posts</li>
+								<li class="fragment">Can edit and post other users posts as well</li>
+							</ul>
+						</li>
+					<li>Administrator
+						<ul>
+							<li class="fragment">Can do it all!</li>
+						</ul>
+					</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Editor</h2>
+					<p>Allows you to update files within dashboard. Very dangerous and will be disabled if site is hardened.</p>
+				</section>
+
+				<section>
+					<h2>Security</h2>
+					<p>WordPress sites are often targeted by hackers but there are many ways to secure your sites.</p>
+				</section>
+
+				<section>
+					<h2>Security</h2>
+					<h3>During install</h3>
+					<ul>
+						<li>Good hosting provider</li>
+						<li>Don't use wp_ database prefix</li>
+						<li>Create new database user</li>
+						<li>Use a unique user name &amp; password (not admin)</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Security</h2>
+					<h3>After install</h3>
+					<ul>
+						<li><a href='http://codex.wordpress.org/Hardening_WordPress'>WordPress codex "hardening"</a></li>
+						<li><a href='https://wordpress.org/plugins/sucuri-scanner/'>Sucuri Security plugin</a></li>
+						<li><a href='https://wordpress.org/plugins/better-wp-security/'>iThemes security plugin</a></li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Security</h2>
+					<h3>Monitoring and protecting after site launch</h3>
+					<ul>
+						<li>Keep up with updates!</li>
+						<li>Use a service or plugin to scan your site</li>
+						<li>Firewalls</li>
+						<li>Backup your site often in the event you do get hacked</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Widgets</h2>
+					<ul>
+						<li>Dynamic content areas</li>
+						<li>Often in footer or sidebar</li>
+						<li>Theme determines where they can be added</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Menus</h2>
+					<ul>
+						<li>Set up the navigation for the site</li>
+						<li>Can have multiple</li>
+						<li>Common locations: header, sidebar, footer</li>
+						<li>Theme also determines available locations</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Plugins</h2>
+					<ul>
+						<li>A piece of software you add to your site</li>
+						<li>Advanced features</li>
+						<li>Many are free</li>
+						<li>You can also build your own</li>
+						<li><a href='https://wordpress.org/plugins/'>Plugin listings</a></li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Plugins</h2>
+					<h3>Things to look for when choosing</h3>
+					<ul>
+						<li>Ratings</li>
+						<li>Is it being maintained?</li>
+						<li>Documentation</li>
+						<li>Can potentially break site</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Themes</h2>
+					<ul>
+						<li>Install</li>
+						<li>Live Preview</li>
+						<li>Activate</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Customizing Themes</h2>
+					<ul>
+						<li>Built-in options</li>
+						<li>Child Theme</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Importing Content</h2>
+					<p>Can import content from another site or export content if you want to move away from WP</p>
+				</section>
+
+				<section>
+					<h2>Let's build it!</h2>
+					<ul>
+						<li>Choose a theme and install</li>
+						<li>Create at least 3 pages: About, Contact with Form and Blog</li>
+						<li>Create at least one post using a custom category and tags</li>
+						<li>Create a custom menu</li>
+						<li>Install at least 3 plugins</li>
+						<li>Add at least 1 custom widget to the page</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Questions?</h2>
+				</section>
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
