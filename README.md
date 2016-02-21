@@ -1,1 +1,3 @@
-# uarts-wp-day-1
+# UArts WordPress workshop
+
+Slides for day one of WordPress workshop.
